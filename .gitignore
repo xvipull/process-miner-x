@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pbix
+data/raw/*
+!data/raw/.gitkeep
+data/staging/*
+!data/staging/.gitkeep
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
