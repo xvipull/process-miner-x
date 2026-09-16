@@ -2,10 +2,12 @@
 .env
 .env.*
 *.csv
+!tests/fixtures/*.csv
 *.xlsx
 *.xls
 *.parquet
 *.pbix
+data/analytics.db
 data/raw/*
 !data/raw/.gitkeep
 data/staging/*

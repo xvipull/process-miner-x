@@ -1,0 +1,5 @@
+event_id,case_id,activity_name,event_timestamp,source_system,event_lifecycle,queue_or_team,product_or_service,region_or_channel,amount,currency,sla_due_timestamp,customer_id
+evt-001,ord-1001,receive order,2025-02-14T08:00:00Z,erp,complete,order intake,Standard,na,"$1,200.00",$,2025-02-15T08:00:00Z,cust-01
+evt-002,ord-1001,validate order,2025-02-14T09:00:00Z,ERP,complete,order intake,Standard,NA,1200,USD,2025-02-15T08:00:00Z,cust-01
+evt-003,ord-1001,pick items,2025-02-14T12:00:00Z,WMS,complete,warehouse,Standard,NA,1200,USD,2025-02-15T08:00:00Z,cust-01
+evt-004,ord-1002,order received,2025-02-15T10:00:00Z,CRM,complete,customer service,Premium,EU,99.50,EUR,2025-02-16T10:00:00Z,cust-02
